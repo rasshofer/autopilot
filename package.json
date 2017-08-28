@@ -1,0 +1,36 @@
+{
+  "name": "coinvestor",
+  "version": "0.0.1",
+  "description": "A simple (CLI) tool to »Cost Average«-buy Bitcoin, Litecoin, and/or Ethereum using Coinbase",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/coinvestor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/coinvestor/issues"
+  },
+  "main": "coinvestor.js",
+  "keywords": [
+    "bitcoin",
+    "ethereum",
+    "litecoin",
+    "coinbase",
+    "cli"
+  ],
+  "dependencies": {
+    "coinbase": "^2.0.6",
+    "leprechaun": "0.0.2",
+    "nconf": "^0.8.4",
+    "round-to": "^2.0.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "coinvestor": "coinvestor.js"
+  }
+}
