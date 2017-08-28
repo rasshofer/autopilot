@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const querystring = require('querystring');
 const nconf = require('nconf');
 const coinbase = require('coinbase');
 const leprechaun = require('leprechaun');
