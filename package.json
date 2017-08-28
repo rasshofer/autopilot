@@ -1,6 +1,6 @@
 {
   "name": "coinvestor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple (CLI) tool to »Cost Average«-buy Bitcoin, Litecoin, and/or Ethereum using Coinbase",
   "author": {
     "name": "Thomas Rasshofer",
