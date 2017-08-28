@@ -114,6 +114,8 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.2
+  * Fix screenshot within README
 * 0.0.1
   * Initial version
 
