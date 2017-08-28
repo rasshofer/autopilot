@@ -6,7 +6,7 @@ Cost averaging is a common investment technique of buying a fixed amount of a pa
 
 Coinvestor is supposed to be configured as a cronjob that is executed once per day/week/month.
 
-<img src="https://cdn.rawgit.com/rasshofer/pomodo/master/screenshot.png" alt="Coinvestor" width="675" height="327">
+<img src="https://cdn.rawgit.com/rasshofer/coinvestor/master/screenshot.png" alt="Coinvestor" width="675" height="327">
 
 ## CLI
 
