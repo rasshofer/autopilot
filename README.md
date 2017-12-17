@@ -141,6 +141,8 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.5
+  * Fix README
 * 0.0.4
   * Implement support for GDAX
 * 0.0.3
