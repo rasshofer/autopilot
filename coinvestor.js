@@ -16,8 +16,10 @@ nconf.argv().env().file({
 const config = nconf.get();
 
 if (config.gdax_api_key) {
+  leprechaun.info('Using GDAX');
   gdax(config);
 } else if (config.coinbase_api_key) {
+  leprechaun.info('Using Coinbase');
   coinbase(config);
 } else {
   leprechaun.error('Invalid/Missing credentials');
