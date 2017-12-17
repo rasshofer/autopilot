@@ -141,6 +141,8 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.4
+  * Implement support for GDAX
 * 0.0.3
   * Remove unused import
 * 0.0.2
