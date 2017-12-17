@@ -91,7 +91,7 @@ Your GDAX API secret.
 
 Example: `AwtyoyLzp3MyDGxuJvj2nGSTWR1mBHMDIxybMH1YqJcsYwOaDIH6JQxbDGLdFmWIKl0bDwcaHJ56JRVaM2gsYD==`
 
-#### `coinbase_api_passphrase`
+#### `gdax_api_passphrase`
 
 Your GDAX API passphrase. 11 characters long.
 
