@@ -8,7 +8,7 @@ const coinbase = require('./services/coinbase');
 const gdax = require('./services/gdax');
 
 nconf.argv().env().file({
-  file: path.resolve(process.cwd(), 'coinvestor.json')
+  file: path.resolve(process.cwd(), 'autopilot.json')
 }).defaults({
   currency: 'EUR'
 });

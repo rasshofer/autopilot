@@ -1,6 +1,6 @@
 {
-  "name": "coinvestor",
-  "version": "0.0.5",
+  "name": "autopilot",
+  "version": "0.0.6",
   "description": "A simple (CLI) tool to »Cost Average«-buy Bitcoin, Litecoin, and/or Ethereum using Coinbase or GDAX",
   "author": {
     "name": "Thomas Rasshofer",
@@ -10,12 +10,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rasshofer/coinvestor.git"
+    "url": "git://github.com/rasshofer/autopilot.git"
   },
   "bugs": {
-    "url": "https://github.com/rasshofer/coinvestor/issues"
+    "url": "https://github.com/rasshofer/autopilot/issues"
   },
-  "main": "coinvestor.js",
+  "main": "autopilot.js",
   "keywords": [
     "bitcoin",
     "ethereum",
@@ -32,6 +32,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "coinvestor": "coinvestor.js"
+    "autopilot": "autopilot.js"
   }
 }
