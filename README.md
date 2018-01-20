@@ -141,6 +141,9 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.8
+  * Include intended amount of coins within order error logs
+  * Implement support for failing GDAX orders due to undershot minimum sizes
 * 0.0.7
   * Implement early exits in case exchange APIs are returning invalid price data
   * Fix typo within balance error message
