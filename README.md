@@ -141,6 +141,8 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.9
+  * Add disclaimer
 * 0.0.8
   * Include intended amount of coins within order error logs
   * Implement support for failing GDAX orders due to undershot minimum sizes
