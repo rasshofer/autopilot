@@ -59,6 +59,12 @@ module.exports = (config) => {
         const price = parseFloat(stats.last, 10);
         const buy = roundTo(amount / price, 8);
 
+        if (!price) {
+          leprechaun.error(`Invalid price data for ${currency.toUpperCase()}`);
+          leprechaun.error(stats);
+          process.exit(1);
+        }
+
         leprechaun.info(`Buy price for ${currency.toUpperCase()} is ${price} ${config.currency.toUpperCase()}`);
 
         const props = {
