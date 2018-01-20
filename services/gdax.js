@@ -40,7 +40,7 @@ module.exports = (config) => {
     leprechaun.info(`Current balance: ${roundTo(balance, 2)} ${wallet.currency.toUpperCase()}`);
 
     if (total > balance) {
-      leprechaun.warning(`Current balance exceeds scheduled total (= ${roundTo(total, 2)} ${wallet.currency.toUpperCase()})`);
+      leprechaun.warning(`Current balance deceeds scheduled total (= ${roundTo(total, 2)} ${wallet.currency.toUpperCase()})`);
     }
 
     currencies.forEach((currency) => {
