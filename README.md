@@ -160,6 +160,10 @@ Default: `0`
 * 0.0.1
   * Initial version
 
+## Disclaimer
+
+You use Autopilot at your own risk. I would only recommend trying out Autopilot with small amounts you are willing to lose for educational purposes. Running a bot (and trading in general) requires careful study of the risks and parameters. Wrong settings can cause a major loss. Autopilot relies on 3rd party APIs which may fail at any time and is experimental software which also may fail at any time. Thus never leave Autopilot un-monitored for long periods of time. Be prepared to stop it if too much loss occurs. You alone are responsible for anything that happens when you’re live-trading.
+
 ## License
 
 Copyright (c) 2018 [Thomas Rasshofer](http://thomasrasshofer.com/)  
