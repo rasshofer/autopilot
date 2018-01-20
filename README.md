@@ -141,6 +141,9 @@ Default: `0`
 
 ## Changelog
 
+* 0.0.7
+  * Implement early exits in case exchange APIs are returning invalid price data
+  * Fix typo within balance error message
 * 0.0.6
   * Rename to »Autopilot«
 * 0.0.5
