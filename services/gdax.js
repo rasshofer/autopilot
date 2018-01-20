@@ -75,9 +75,9 @@ module.exports = (config) => {
 
         client.buy(props, (err, response, order) => {
 
-          if (err) {
+          if (err || order.message) {
             leprechaun.error(`Error while buying ${currency.toUpperCase()}`);
-            leprechaun.error(err);
+            leprechaun.error(err || order.message);
             process.exit(1);
           }
 
